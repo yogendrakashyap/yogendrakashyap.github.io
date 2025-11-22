@@ -6,22 +6,69 @@
 }
 
 html, body {
-  margin:0;
-  padding:0;
-  background:var(--body-bg);
-  color:var(--text);
-  font-family:system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--body-bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
 }
 
 a {
-  color:var(--link);
-  text-decoration:none;
+  color: var(--link);
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration:underline;
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
 
 h1, h2, h3 {
-  color:var(--text);
+  color: var(--text);
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+/* code / pre styling */
+pre {
+  position: relative;
+  padding: 14px;
+  overflow: auto;
+  border-radius: 6px;
+  background: #f7f7f9;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+/* copy button styles for code blocks */
+.copy-btn {
+  background: #0366d6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  padding: 6px 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* position the button inside pre (script sets absolute) */
+pre .copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+/* small interaction styles */
+.copy-btn:hover { filter: brightness(0.95); }
+.copy-btn:active { transform: translateY(1px); }
+.copy-btn:focus { outline: 2px solid rgba(3,102,214,0.25); outline-offset: 2px; }
+
+/* small responsive tweak */
+@media (max-width: 480px) {
+  pre { padding: 10px; font-size: 12px; }
+  nav.site-nav { font-size: 15px; }
 }
