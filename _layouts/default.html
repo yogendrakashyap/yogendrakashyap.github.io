@@ -5,28 +5,35 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ page.title | default: site.title }}</title>
 
+  <!-- Global stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}" />
 
   <style>
+    /* Header and nav styling */
     .site-header{
       text-align:center;
       padding:18px 12px;
     }
+
     nav.site-nav{
       margin-top:8px;
       font-size:16px;
     }
+
     nav.site-nav a{
       margin:0 10px;
       text-decoration:none;
       color:inherit;
       font-weight:600;
     }
+
+    /* Main content container */
     main.site-content{
       max-width:900px;
       margin:0 auto;
       padding:18px;
     }
+
     @media (max-width:600px){
       nav.site-nav{ font-size:15px; }
     }
@@ -34,6 +41,8 @@
 </head>
 
 <body>
+
+  <!-- Universal Header + Nav -->
   <header class="site-header">
     <nav class="site-nav" role="navigation" aria-label="Main navigation">
       <a href="/">Home</a> |
@@ -43,10 +52,13 @@
     </nav>
   </header>
 
+  <!-- Page Content -->
   <main class="site-content">
     {{ content }}
   </main>
 
+  <!-- Universal Footer -->
   {% include footer.html %}
-</body>
-</html>
+
+  <!-- Copy button script -->
+  <script src="{{ '/as
