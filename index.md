@@ -1,4 +1,8 @@
 ---
+title: "Home"
+layout: default
+---
+---
 title: "Yogendra's GitHub Blog"
 ---
 <!-- START NAV -->
