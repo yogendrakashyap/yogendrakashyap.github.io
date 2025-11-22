@@ -5,14 +5,6 @@ layout: default
 ---
 title: "Yogendra's GitHub Blog"
 ---
-<!-- START NAV -->
-<nav style="text-align:center; margin:0.8rem 0 1.2rem; font-family:inherit;">
-  <a href="/" style="text-decoration:none; margin:0 0.9rem; font-weight:600;">Home</a> |
-  <a href="/blog" style="text-decoration:none; margin:0 0.9rem;">Blog</a> |
-  <a href="/projects" style="text-decoration:none; margin:0 0.9rem;">Projects</a> |
-  <a href="/about" style="text-decoration:none; margin:0 0.9rem;">About</a>
-</nav>
-<!-- END NAV -->
 
 # 🌟 The Ultimate GitHub Guide for Kids (Age 11 to 15)
 
