@@ -1,6 +1,8 @@
 ---
 title: "Blog"
+layout: default
 ---
+
 # Blog
 Welcome to the Blog page.  
 This page will list blog posts. Add new posts as separate `.md` files and link them here or create a small list.
