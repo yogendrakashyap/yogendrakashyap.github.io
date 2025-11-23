@@ -24,7 +24,6 @@ If you discover a security issue, please report it responsibly.
 Please email:
 
 **security@yogendrakashyap.com**  
-(or replace with your preferred email)
 
 Your report should include (if possible):
 - A clear description of the vulnerability  
