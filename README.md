@@ -1,7 +1,7 @@
 # 🚀 AI Automation (Work in Progress)
 
 This project is my learning journey to build simple AI automations.
-The goal is to create small tools that automate tasks using AI — step by step — without going too technical.
+The goal is to create small tools that automate tasks using AI - step by step - without going too technical.
 
 Anyone who wants to learn or contribute is welcome.
 
